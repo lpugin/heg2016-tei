@@ -39,10 +39,11 @@
     <xsl:template match="ns:body">
         <xsl:apply-templates/>
     </xsl:template>
-    
+
     <xsl:template match="ns:p">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+
 </xsl:stylesheet>
